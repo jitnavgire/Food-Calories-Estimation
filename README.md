@@ -32,5 +32,38 @@ We have deployed our model using flask
 ![cnn](https://user-images.githubusercontent.com/64503158/125401659-12eb1b80-e3d1-11eb-9257-b1753c72f996.PNG)
                   
                   Image Segmentation
-                  
+![segmentation](https://user-images.githubusercontent.com/64503158/125401886-5c3b6b00-e3d1-11eb-87c9-b2461495ec33.PNG)
+
+                  Volume Estimation
+After Scaling we have to find the area of fruit from area volume is estimated for Spherical Shape  fruits apple,tomato,orange,kiwi,onion
+Cylindrical Shape cylinder like banana, cucumber, carrot
+
+Different volume Estimation formula is used
+
+                 Calories Estimation
+Given :  
+Calories per gram (Kcal/g) 
+ Density (g/cm³)
+
+Mass    =   Density (g/cm³) * Volume (cm³)
+Calories = Calories per gram (Kcal/g)* Mass(g)
+
+                 Limitations and scope
+Limitations
+1.Actual weight and calories can’t find due to image quality
+2.Difficult to find appropriate angle between fruit And camera
+3.Lighting condition i.e pixel changes with respect to light
+
+Scope
+1.Estimate the calorie from all types of fruits.
+2.Minimize error of calories estimation
+3.More categories of food can be trained in future
+
+Conclusion:
+In the above project,we are going to calculated the calories of food item using machine learning and image processing. 
+For that we have implemented three modules:
+ First,we detect the object using CNN.
+ Then we Segment the image.,we calculate the volume of the food item. 
+ In the final step,we calculate the calories of the food item. 
+
 
