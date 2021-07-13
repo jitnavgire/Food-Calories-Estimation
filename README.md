@@ -25,5 +25,8 @@ We have deployed our model using flask
 
 
                  Architectural Design
-                 ![image](https://user-images.githubusercontent.com/64503158/125400437-81c77500-e3cf-11eb-8cee-0da8a3459167.png)
+            
+![design](https://user-images.githubusercontent.com/64503158/125401147-6c9f1600-e3d0-11eb-96ab-b4ab31a69f62.PNG)
+
+                Convolutional Neural Network
 
