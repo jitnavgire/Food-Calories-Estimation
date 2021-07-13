@@ -29,4 +29,8 @@ We have deployed our model using flask
 ![design](https://user-images.githubusercontent.com/64503158/125401147-6c9f1600-e3d0-11eb-96ab-b4ab31a69f62.PNG)
 
                 Convolutional Neural Network
+![cnn](https://user-images.githubusercontent.com/64503158/125401659-12eb1b80-e3d1-11eb-9257-b1753c72f996.PNG)
+                  
+                  Image Segmentation
+                  
 
